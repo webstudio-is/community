@@ -1,0 +1,13 @@
+When you visit a website that doesn’t exist or couldn't be found on the server because the webpage was moved or deleted, the broken link redirects to a 404 error page where a message indicating this error is shown.
+
+The default 404 page mentions:
+# 404 Not Found
+
+If you want to create a customized page for this you will need to create a new page and change two things:
+
+1. Change Status Code from `200` to `404`.
+2. Set the Dynamic Path to `/*` to select each possible outcome.
+![[Pasted image 20240806092758.png]]
+After that you can design the page however you like.
+
+If you do not want to show a 404 page error, but always refer to the homepage, you can set the redirect to `/`.
