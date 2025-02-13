@@ -38,9 +38,10 @@ VS Code will now build the Docker container and open the Webstudio project insid
 
 5. Run the development server:
    * After the setup completes, open the terminal in VS Code.
-   *   Run the following command:
+   *   Run the following commands:
 
        ```sh
+       pnpm install
        pnpm dev
        ```
 6. Open the application in your browser:
