@@ -62,6 +62,7 @@ Learn how to upload your static site to Netlify.
     ![Drag and drop upload static site to netlify](../../.gitbook/assets/netlify-drag-drop.png)
 
     * **Git** – Unzip the export and add it to a repository such as GitHub
+    * **CLI** – Follow the steps to build and deploy a JavaScript application but select the ssg-netlify template during project initiation/building. During the deploy phase, the Netlify CLI will ask for a publish directory. Enter "dist/client" as this is the location of the front-end files. 
 * Click “Open production deploy”
 
 \
